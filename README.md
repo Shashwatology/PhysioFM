@@ -1,14 +1,22 @@
 # PhysioFM: Optimization Diagnostics and Failure Analysis of Hierarchical Foundation Models in rPPG
 
-![PhysioFM Header](paper/figures/clinical_motivation.png) *(Note: Add your final banner here)*
-
-PhysioFM is a research framework designed to investigate the integration of large-scale Spatial Foundation Models (Swin-V2) with Spatio-Temporal Difference Stems (STDS) for remote Photoplethysmography (rPPG). 
-
-Unlike standard architectures, this project focuses heavily on **isolating optimization bottlenecks**—specifically **Gradient Starvation** and **Objective Function Mismatch**—that lead to mode collapse in dual-branch hierarchical transformers.
+| Project Overview | Details |
+| :--- | :--- |
+| **Author** | Shashwat Anil Kumar Upadhyay |
+| **Domain** | Remote Photoplethysmography (rPPG) / Computer Vision |
+| **Objective** | Non-contact heart rate and physiological waveform estimation from video. |
+| **Architecture** | Spatial-Temporal Deep Learning (Swin-V2 + STDS + Temporal Transformers). |
+| **Key Focus** | Isolating optimization bottlenecks (Gradient Starvation, Objective Mismatch). |
 
 ---
 
-## 📖 Research Dossier
+## 📖 Overview
+
+PhysioFM is a PyTorch-based research framework designed to investigate the integration of large-scale Spatial Foundation Models (Swin-V2) with Spatio-Temporal Difference Stems (STDS) for remote Photoplethysmography (rPPG). 
+
+Unlike standard architectures, this project heavily focuses on **diagnosing optimization failures**—specifically tracing why mode collapse occurs in dual-branch hierarchical transformers predicting continuous physiological signals.
+
+## 🔬 Research Dossier
 The complete scientific findings, failure analyses, and optimization diagnostics of this project are compiled in the master dossier:
 **[`PhysioFM_Research_Dossier.md`](PhysioFM_Research_Dossier.md)**
 
@@ -37,8 +45,8 @@ This repository strictly enforces reproducibility.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/PhysioFM_Codebase.git
-   cd PhysioFM_Codebase
+   git clone https://github.com/Shashwatology/PhysioFM.git
+   cd PhysioFM
    ```
 
 2. **Set up the virtual environment:**
