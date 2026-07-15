@@ -1,0 +1,15 @@
+model_name: PHYSIOFM
+dataset_name: UBFC-rPPG
+dataset_path: "C:\\Users\\MNIT USER\\Downloads\\UBFC-rPPG Dataset"
+epochs: 100
+limit_subjects: null
+seed: 42
+learning_rate: 0.001
+batch_size: 2
+seq_len: 150
+embed_dim: 256
+patience: 25
+stds_alpha_init: 0.0
+stds_fusion_mode: concat
+waveform_loss_weight: 1.0
+exp_name: EXP06C_FeatureNorm

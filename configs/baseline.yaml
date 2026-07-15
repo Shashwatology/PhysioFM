@@ -1,0 +1,5 @@
+model_name: POS
+learning_rate: 0.001
+epochs: 30
+dataset_name: UBFC-rPPG
+dataset_path: d:\Shashwat\Platform\ml_pipeline\datasets\UBFC-rPPG\raw

@@ -1,0 +1,3 @@
+name: UBFC-rPPG
+path: ../datasets/UBFC-rPPG/processed
+batch_size: 16

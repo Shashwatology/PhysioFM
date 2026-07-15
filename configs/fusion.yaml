@@ -1,0 +1,3 @@
+fusion_type: cross_attention
+embed_dim: 512
+heads: 8

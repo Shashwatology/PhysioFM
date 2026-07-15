@@ -1,0 +1,11 @@
+model_name: PHYSIOFM
+dataset_name: Synthetic
+dataset_path: "d:/Shashwat/Platform/ml_pipeline/datasets/UBFC-rPPG/raw"
+epochs: 2
+limit_subjects: 1
+seed: 42
+learning_rate: 0.001
+batch_size: 2
+seq_len: 150
+embed_dim: 256
+exp_name: "validation_phase3c"

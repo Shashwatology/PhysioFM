@@ -1,0 +1,42 @@
+# Dataset
+datasets/raw/
+datasets/cache/
+
+# Model Checkpoints & Weights
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE & Editor
+.idea/
+.vscode/
+
+# Experiment Outputs & Logs
+wandb/
+tensorboard/
+runs/
+*.log
+*.tmp
+*.ipynb_checkpoints
+
+# Explicitly Tracked (for clarity)
+!configs/
+!paper/
+!src/
+!docs/
+!requirements.txt
+!README.md
+!LICENSE
+
+# Large Binaries and Archives
+*.msi
+*.zip
+pandoc_bin/

@@ -1,0 +1,14 @@
+batch_size: 4
+dataset_name: UBFC-rPPG
+dataset_path: D:\Shashwat\Platform\ml_pipeline\datasets\UBFC-rPPG\raw
+embed_dim: 256
+epochs: 50
+exp_name: PhysioFM_v0.1_stage3
+learning_rate: 0.0001
+limit_subjects: 42
+model_name: physiofm
+patience: 15
+seq_len: 150
+training:
+  epochs: 50
+weight_decay: 0.001

@@ -1,0 +1,25 @@
+exp_name: "EXP08A_TargetNorm"
+model_name: "PhysioFM"
+dataset_name: "UBFC-rPPG"
+dataset_path: "C:\\Users\\MNIT USER\\Downloads\\UBFC-rPPG Dataset"
+
+seed: 42
+tracking: "local"
+
+# Architecture
+embed_dim: 256
+seq_len: 150
+stds_alpha_init: 0.0
+stds_fusion_mode: "concat"
+
+# Training
+batch_size: 2
+learning_rate: 0.001
+epochs: 10
+patience: 15
+limit_subjects: null
+
+# EXP08A Intervention
+normalize_hr_targets: True
+use_ccc_loss: False
+waveform_loss_weight: 1.0
