@@ -1,0 +1,16 @@
+batch_size: 2
+dataset_name: UBFC-rPPG
+dataset_path: C:\Users\MNIT USER\Downloads\UBFC-rPPG Dataset
+embed_dim: 256
+epochs: 10
+exp_name: EXP05_Fusion_Concat_V2
+learning_rate: 0.001
+limit_subjects: null
+model_name: PHYSIOFM
+patience: 10
+project: Physiological-Foundation-Model
+seed: 42
+seq_len: 150
+stds_alpha_init: 0.0
+stds_fusion_mode: concat
+tracking: wandb

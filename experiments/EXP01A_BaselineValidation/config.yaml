@@ -1,0 +1,15 @@
+batch_size: 4
+dataset_name: UBFC-rPPG
+dataset_path: C:\Users\MNIT USER\Downloads\UBFC-rPPG Dataset
+embed_dim: 256
+epochs: 10
+exp_name: EXP01A_BaselineValidation
+learning_rate: 0.001
+limit_subjects: 5
+mixed_precision: false
+model_name: PHYSIOFM
+patience: 15
+project: Physiological-Foundation-Model
+seed: 42
+seq_len: 150
+tracking: wandb

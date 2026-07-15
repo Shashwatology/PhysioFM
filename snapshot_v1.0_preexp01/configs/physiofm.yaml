@@ -1,0 +1,12 @@
+model_name: "physiofm"
+exp_name: "PhysioFM_v0.2"
+learning_rate: 0.0001
+epochs: 50
+patience: 15
+seed: 42
+limit_subjects: 5
+dataset_name: "UBFC-rPPG"
+dataset_path: "datasets/UBFC-rPPG/raw"
+embed_dim: 256
+seq_len: 150
+batch_size: 2

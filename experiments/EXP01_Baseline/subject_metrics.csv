@@ -1,0 +1,3 @@
+Subject_ID,GT_HR,Pred_HR,Absolute_Error
+tensor(1),97.17928,54.257637,42.921646
+tensor(10),98.11598,54.257645,43.858337
