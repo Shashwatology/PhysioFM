@@ -1,0 +1,1 @@
+# Research Notebook: EXP01_Baseline\n\n**Date**: 2026-07-10 18:11:13\n\n**Status**: COMPLETED\n

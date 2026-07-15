@@ -1,0 +1,1 @@
+# Compute Log\n\n- **Total Epochs**: 2\n- **Avg Time/Epoch**: 2.86 s\n- **Peak GPU Mem**: 516.0 MB\n

@@ -1,0 +1,1 @@
+# Architecture Validation Passed\n- fused: (2, 150, 256)\n- pred: (2, 150)\n- target: (2, 150)
